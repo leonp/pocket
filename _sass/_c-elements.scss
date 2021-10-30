@@ -1,0 +1,47 @@
+html {
+	font-size: clamp(112.5%, 2.2vw, 118.75%);
+}
+
+a {
+	text-decoration-thickness: var(--text-decoration-thickness);
+}
+
+a:link {
+	color: var(--link);
+}
+
+a:visited {
+	color: var(--visited);
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: var(--hover);
+}
+
+code {
+	font-size: var(--font-size-code);
+}
+
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article dt {
+	margin-top: var(--article-heading-mt);
+	margin-bottom: var(--article-heading-mb);
+	text-align: var(--article-heading-font-alignment);
+	line-height: var(--lh-title);
+	hyphens: manual;
+	-webkit-hyphens: manual;
+}
+
+article h2 {
+	font-size: var(--article-font-size-h2)
+}
+
+article h3 {
+	font-size: var(--article-font-size-h3)
+}

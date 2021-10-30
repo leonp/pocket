@@ -1,38 +1,9 @@
-<!DOCTYPE html>
+{% include meta.html %}
 
-<html lang="{{ site.lang }}">
-
-    <head>
-
-        {% if page.is_home %}
-        <title>{{ site.title }}</title>
-        <meta name="description" content="{{ site.description }}">
-        {% else %}
-        <title>{{ page.title }} &#8211; {{ site.title }}</title>
-        {% endif %}
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-
-        {% if site.css == 'inline' %}
-        <style>
-            {% capture inline-styles %}
-            {% include style.scss %}
-            {% endcapture %}
-            {{ inline-styles | scssify }}
-        </style>
-        {% else %}
-        <link href="/css/style.css" rel="stylesheet">
-        {% endif %}
-
-    </head>
-
-    <body class="ma0 pa2 pa4-ns bg-white dark-gray sans-serif lh-copy">
+    <body class="ma0 pa0 c-bg c-foreground c-sans-serif c-lh-copy">
 
         <p class="clip"><a href="#content">Skip to content</a></p>
 
-        <div class="measure center">
+        <a href="/" class="f6 no-underline underline-hover db tc b c-foreground pa3 ph4-ns c-lh-title">{{ site.title }}</a>
 
-            <h1 class="ma0 f5 lh-title"><a href="/" class="dark-gray no-underline">{{ site.title }}</a></h1>
-
-            <main id="content">
+        <main class="mv4 mv5-ns" id="content">

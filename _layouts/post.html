@@ -1,17 +1,34 @@
 {% include header.html %}
 
-<article>
+<div class="ph3 ph4-ns">
 
-    <header>
+    <article class="c-measure center h-entry">
 
-        <h1 class="f3 lh-title">{{ page.title }}</h1>
+        <div class="tc flex flex-column-reverse mb4">
 
-        <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+            <h1 class="f3 f2-ns c-lh-title ma0 p-name">{{ page.title }}</h1>
 
-    </header>
+            <p class="f6 mt0 mb2"><time class="dt-published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%b %-d,  %Y" }}</time>{% if site.author %} &middot; <span class="p-author">{{ site.author }}</span>{% endif %}</p>
 
-    {{ content}}
+        </div>
 
-</article>
+        <div class="c-hyphens e-content">
+
+        {{ content}}
+
+        </div>
+
+        <div class="clip">
+
+            <span class="u-url">{{site.url}}{{ page.url }}</span>
+            {% if page.in-reply-to %}<span class="u-in-reply-to">{{ page.in-reply-to }}</span>{% endif %}
+            {% if page.like-of %}<span class="u-like-of">{{ page.like-of }}</span>{% endif %}
+            {% if page.repost-of %}<span class="u-repost-of">{{ page.repost-of }}</span>{% endif %}
+
+        </div>
+
+    </article>
+
+</div>
 
 {% include footer.html %}

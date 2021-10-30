@@ -1,6 +1,10 @@
-            </main>
+        </main>
 
-        </div>
+        {% if site.description %}
+
+        <p role="contentinfo" class="c-measure center f6 c-lh-title tc pa3 ph4-ns">{{ site.description }}</p>
+
+        {% endif %}
 
     </body>
 
