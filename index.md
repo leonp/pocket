@@ -1,8 +1,10 @@
 ---
-layout: default
-title: Home page
+layout: archive
+title: A blog about the next day
+pagination:
+   enabled: true
 ---
 
-This is the home page, which uses the `default` layout.
+Come, come, hear my story. A blog about recidivism, rectitude and the furthest east anyone could imagine.
 
-[Read a post](/example-post/).
+
