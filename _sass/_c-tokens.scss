@@ -57,7 +57,7 @@
     --article-heading-mt: 2.25rem;
     --article-heading-mb: 1rem;
     --article-heading-font-style: normal;
-    --article-heading-font-alignment: center;
+    --article-heading-font-alignment: left;
     --article-font-size-h2: 1.25rem;
     --article-font-size-h3: 1rem;
 
@@ -73,6 +73,7 @@
     --pull-left-l: 0;
 
     // Colours
+    --klein-browser-blue: #0000EE;
     --accent: var(--t-blue);
     --link: var(--t-black);
     --visited: var(--t-mid-gray);

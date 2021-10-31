@@ -2,11 +2,11 @@
 
 {% for item in items %}
 
-  <div class="mv4 mv5-ns">
+  <div class="mv4">
 
-    <div class="flex flex-column-reverse tc mb2">
+    <div class="flex flex-column-reverse mb2">
 
-      <h2 class="f5 f4-ns c-lh-title ma0"><a class="db c-foreground no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
+      <h2 class="f5 f4-ns c-lh-title ma0"><a class="db c-link no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
 
       <p class="ma0 f6 mt0 mb2"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
 

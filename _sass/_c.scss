@@ -30,6 +30,11 @@ a.c-accent {
     color: var(--accent);
 }
 
+.c-link,
+a.c-link {
+    color: var(--link);
+}
+
 .c-hyphens {
     hyphens: auto;
     -webkit-hyphens: auto;
