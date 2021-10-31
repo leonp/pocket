@@ -1,11 +1,23 @@
 {% include header.html %}
 
-<article>
+<div class="ph3 ph4-ns">
 
-    <h1 class="f3 lh-title">{{ page.title }}</h1>
+    <div class="c-measure center c-article">
 
-    {{ content}}
+        <div class="tc flex flex-column-reverse mb4">
 
-</article>
+            <h1 class="f3 f2-ns c-lh-title ma0">{{ page.title }}</h1>
+
+        </div>
+
+        <div class="c-hyphens">
+
+        {{ content}}
+
+        </div>
+
+    </div>
+
+</div>
 
 {% include footer.html %}

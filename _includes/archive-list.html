@@ -6,13 +6,11 @@
 
     <div class="flex flex-column-reverse tc mb2">
 
-      <h2 class="f4 c-lh-title ma0"><a class="db c-foreground no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
+      <h2 class="f5 f4-ns c-lh-title ma0"><a class="db c-foreground no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
 
       <p class="ma0 f6 mt0 mb2"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
 
     </div>
-
-    <p class="ma0 c-hyphens">{{ item.excerpt | strip_html | strip_newlines | truncatewords: 50 }}</p>
 
   </div>
 
@@ -20,13 +18,13 @@
 
 {% if paginator.total_pages > 1 %}
 
-<footer class="pt4">
+<div class="pt4">
 
-    <div class="flex justify-between b f6 c-measure">
+    <div class="b f6 cf">
 
         {% if paginator.next_page %}
 
-            <div>
+            <div class="w-50 fl pr3">
 
               <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
 
@@ -36,7 +34,7 @@
 
       {% if paginator.previous_page %}
 
-          <div>
+          <div class="w-50 fr tr pl3">
 
             <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
 
@@ -46,8 +44,8 @@
 
     </div>
 
-    <!-- <p class="f6 mt0 silver">{{page.pagination_info.curr_page}}/{{page.pagination_info.total_pages}}</p> -->
+    <p class="f6 mt0 tc">{{page.pagination_info.curr_page}}/{{page.pagination_info.total_pages}}</p>
 
-</footer>
+</div>
 
 {% endif %}

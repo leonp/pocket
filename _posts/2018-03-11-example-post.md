@@ -1,6 +1,5 @@
 ---
 title: Let’s experiment with post titles that stretch in a small way over several lines
-layout: post
 ---
 
  Avocado dressing drizzle fiery fruit ginger lemongrass agave green tea shiitake mushrooms citrusy falafel bites lemon lime minty bite sized guacamole fresh banana blueberries avocado basil pesto crispy Italian pepperoncini. Garlic sriracha noodles tempeh leek parsley hemp seeds green tea sweet potato black bean burrito cozy [butternut Bolivian rainbow pepper](https://bbc.co.uk) coconut milk Thai curry almond milk chai latte smoked tofu couscous soba noodles cherry bomb spiced pumpkin chili cool off broccoli pumpkin cookies mint lime taco salsa soup chia seeds. Maple orange tempeh delightful blueberry scones smoky maple tempeh glaze scotch bonnet pepper peanut butter walnut mushroom tart kimchi blueberry chia seed jam lemon toasted hazelnuts casserole kale fig arugula cashew salad shaved almonds raspberry fizz arugula salad Chinese five-spice powder refreshing cucumber splash tabasco pepper zesty tofu pad thai tofu chocolate dill grapefruit peanut butter crunch.

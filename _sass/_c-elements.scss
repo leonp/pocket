@@ -29,7 +29,13 @@ article h3,
 article h4,
 article h5,
 article h6,
-article dt {
+article dt,
+.c-article h2,
+.c-article h3,
+.c-article h4,
+.c-article h5,
+.c-article h6,
+.c-article dt {
 	margin-top: var(--article-heading-mt);
 	margin-bottom: var(--article-heading-mb);
 	text-align: var(--article-heading-font-alignment);
@@ -38,10 +44,12 @@ article dt {
 	-webkit-hyphens: manual;
 }
 
-article h2 {
+article h2,
+.c-article h2 {
 	font-size: var(--article-font-size-h2)
 }
 
-article h3 {
+article h3,
+.c-article h3 {
 	font-size: var(--article-font-size-h3)
 }
