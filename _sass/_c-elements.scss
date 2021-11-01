@@ -107,6 +107,11 @@ article h3,
 	font-size: var(--article-font-size-h3)
 }
 
+article dt,
+.c-article dt {
+    font-style: italic;
+}
+
 video {
   width: 100% !important;
   height: auto !important;
