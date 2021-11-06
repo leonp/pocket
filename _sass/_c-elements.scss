@@ -76,6 +76,11 @@ hr {
     border: 0.1rem double var(--accent);
 }
 
+svg {
+    max-width: 1em !important;
+    height: auto !important;
+}
+
 
 article h2,
 article h3,
